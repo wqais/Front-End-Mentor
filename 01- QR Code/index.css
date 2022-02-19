@@ -1,0 +1,95 @@
+html {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+.card-background {
+  background-color: hsl(217, 100%, 95%);
+  width: 80%;
+  height: 70vh;
+  position: relative;
+  margin: 5% 10%;
+  box-shadow: 5px 5px 10px hsl(212, 45%, 89%), -5px 0 10px hsl(212, 45%, 89%);
+}
+
+.card-holder {
+  margin: auto;
+  position: absolute;
+  flex-direction: column;
+  width: 15rem;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  top: 5%;
+  right: 30%;
+  bottom: 5%;
+  left: 30%;
+  padding: 1em 0.5em;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px hsl(212, 45%, 89%), -5px 0 10px hsl(212, 45%, 89%);
+}
+
+.qr-code {
+  height: 14em;
+  width: 14em;
+  border-radius: 15px;
+}
+
+.card-text {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.1em;
+  margin-top: 30px;
+}
+
+.scan-code {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+@media (max-width:700px){
+  .card-background{
+    width: 100%;
+    height: 90vh;
+    margin: 0 0 10px 0;
+  }
+
+  .card-holder{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0em;
+    height: fit-content;
+    border-radius: 10px;
+  }
+
+  .qr-code{
+    height: 12em;
+    width: 12em;
+    margin: 20px 0 0 0;
+  }
+
+  .card-text{
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .scan-code{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
