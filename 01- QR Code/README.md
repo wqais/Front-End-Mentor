@@ -25,7 +25,7 @@ The main challenge here was to position the elements correctly and to get them t
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/wqais/Front-End-Mentor/tree/main/01-%20QR%20Code)
 
 ## My process
 
