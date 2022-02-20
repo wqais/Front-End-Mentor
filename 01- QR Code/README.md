@@ -5,6 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -16,7 +17,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-The main challenge here was to position the elements correctly and to get them to look as close to preview as possible.
+### The challenge
+
+- View the optimal layout for the app depending on their device's screen size
+- Position elements correctly
 
 ### Screenshot
 
