@@ -33,8 +33,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 
-I started with the desktop view first and then went on to work on the mobile view. Arranging the elements was the main challenge here so after a quick CSS refresher I was able to get them in the right positions. I managed to finish the challenge in 1 hour.
-
 ### Built with
 
 - Semantic HTML5 markup
