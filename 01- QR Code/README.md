@@ -30,7 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Github](https://github.com/wqais/Front-End-Mentor/tree/main/01-%20QR%20Code)
-
+- Live Site URL: [Netlify Site](https://wqaisolutions.netlify.app/01-%20qr%20code/01)
 ## My process
 
 ### Built with

@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/wqais/Front-End-Mentor/tree/main/02-%20Advice%20Generator)
+- Live Site URL: [Netlify Site](https://wqaisolutions.netlify.app/02-%20advice%20generator/02)
 
 ## My process
 
