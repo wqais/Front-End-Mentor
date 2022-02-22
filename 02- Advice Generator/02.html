@@ -20,24 +20,40 @@
     <title>Frontend Mentor | Advice generator app</title>
   </head>
   <body>
-    <div class="advice-card">
-      <div class="advice-number">ADVICE #<span id="advice-id">0</span></div>
-      <div id="advice-container">
-        &#34;<span id="advice">Tap Button to Generate Advice</span><span id="error" class="hide">ERROR!</span>&#34;
+    <main>
+      <h1 class="sr-only">Advice Generator</h1>
+      <div class="advice-card">
+        <p class="advice-number">ADVICE #<span id="advice-id">0</span></p>
+        <p id="advice-container">
+          &#34;<span id="advice">Tap Button to Generate Advice</span
+          ><span id="error" class="hide">ERROR!</span>&#34;
+        </p>
+        <img
+          src="images/pattern-divider-desktop.svg"
+          class="divider desktop-divider"
+          alt="divider"
+        />
+        <img
+          src="images/pattern-divider-mobile.svg"
+          class="divider mobile-divider"
+          alt="divider"
+        />
+        <button class="generate-advice-btn">
+          <img
+            src="images/icon-dice.svg"
+            class="generate-image"
+            alt="generate-dice"
+          />
+        </button>
       </div>
-      <img src="images/pattern-divider-desktop.svg" class="divider desktop-divider" />
-      <img src="images/pattern-divider-mobile.svg" class="divider mobile-divider" />
-      <button class="generate-advice-btn">
-        <img src="images/icon-dice.svg" class="generate-image" alt="generate-dice" />
-      </button>
-    </div>
+    </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://wqaisportfolio.netlify.app">Qais</a>.
-    </div>
+    </footer>
 
     <script src="02.js"></script>
   </body>

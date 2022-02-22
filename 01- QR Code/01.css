@@ -19,6 +19,10 @@ body {
   flex-direction: column;
 }
 
+.sr-only {
+  display: none;
+}
+
 .card-holder {
   margin: auto;
   flex-direction: column;

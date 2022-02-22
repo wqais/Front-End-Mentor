@@ -1,11 +1,15 @@
-body{
+body {
   background-color: hsl(217, 19%, 24%);
   margin: auto;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: center;
 }
 
-.advice-card{
+.sr-only {
+  display: none;
+}
+
+.advice-card {
   background-color: hsl(217, 19%, 38%);
   text-align: center;
   width: 35%;
@@ -17,7 +21,7 @@ body{
   position: relative;
 }
 
-.advice-number{
+.advice-number {
   color: hsl(150, 100%, 66%);
   padding: 4em 0 0 0;
   font-weight: 700;
@@ -25,18 +29,18 @@ body{
   letter-spacing: 2px;
 }
 
-#advice-container{
+#advice-container {
   padding: 1em;
   color: hsl(193, 38%, 86%);
   font-weight: 900;
   font-size: x-large;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.divider{
+.divider {
   display: inline;
   padding: 1em 0;
   box-sizing: border-box;
@@ -44,7 +48,7 @@ body{
   margin: auto;
 }
 
-.generate-advice-btn{
+.generate-advice-btn {
   background: hsl(150, 100%, 66%);
   border: 0;
   width: fit-content;
@@ -62,38 +66,38 @@ body{
   transition: all 0.25s;
 }
 
-.generate-advice-btn:hover{
+.generate-advice-btn:hover {
   box-shadow: 1px 1px 5px hsl(150, 100%, 66%), -1px -1px 5px hsl(150, 100%, 66%);
 }
 
-.generate-image{
+.generate-image {
   width: 1.65em;
   height: 1.65em;
   margin: auto;
   padding: 1em;
 }
 
-@media (max-width: 700px){
-  .advice-card{
+@media (max-width: 700px) {
+  .advice-card {
     width: 90%;
     margin-top: 30%;
   }
-  .desktop-divider{
+  .desktop-divider {
     display: none;
   }
 }
 
-@media (min-width: 700px){
-  .mobile-divider{
+@media (min-width: 700px) {
+  .mobile-divider {
     display: none;
   }
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-    color: hsl(193, 38%, 86%);
-  }
-  .attribution a {
-    color: hsl(233, 4%, 63%);
-  }
+  font-size: 11px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+}
+.attribution a {
+  color: hsl(233, 4%, 63%);
+}

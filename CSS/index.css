@@ -3,14 +3,20 @@ html {
   min-height: 100%;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 601px) {
   .right-mobile-footer {
     display: none;
   }
 }
 
-body {
-  margin-bottom: 0;
+.sr-only {
+  display: none;
 }
 
 main {
@@ -84,7 +90,13 @@ a:hover {
   text-decoration: underline;
 }
 
-.description {
+.fem-profile {
+  text-decoration: underline;
+  color: blue;
+}
+
+.description,
+.note {
   font-size: 1.2em;
 }
 
@@ -163,7 +175,7 @@ footer a {
   }
 
   .heading {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .nav-list-item {
@@ -174,6 +186,12 @@ footer a {
   .description {
     text-align: left;
     font-size: 1em;
+    margin-left: 0.5em;
+  }
+
+  .note {
+    font-size: 1em;
+    text-align: left;
     margin-left: 0.5em;
   }
 
@@ -190,11 +208,7 @@ footer a {
     border-spacing: 0;
   }
 
-  .note {
-    display: inline;
-  }
-
-  footer{
+  footer {
     margin-top: 23.3%;
   }
 
