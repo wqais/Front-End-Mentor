@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/wqais/Front-End-Mentor/tree/main/03-%20Interactive%20Pricing)
+- Live Site URL: [Live Site](https://wqaisolutions.netlify.app/03-%20interactive%20pricing/03)
 
 ## My process
 

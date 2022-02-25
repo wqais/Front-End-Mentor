@@ -291,8 +291,8 @@ input:checked + .slider:before {
 }
 
 .btn-container {
-  width: 30%;
-  margin: auto 15%;
+  width: fit-content;
+  margin-left: 15%;
   display: inline;
 }
 
@@ -394,6 +394,10 @@ input:checked + .slider:before {
 
   .switch {
     height: 1.4em;
+  }
+
+  input:checked + .slider:before {
+    left: 8px;
   }
 
   .discount-mobile {
