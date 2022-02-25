@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="stylesheet" href="CSS/03.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Interactive Pricing</h1>
+
+      <div class="heading-container">
+        <p class="component-heading">Simple, traffic-based pricing</p>
+        <p class="component-sub-heading">
+          Sign-up for our 30-day trial. No credit card required.
+        </p>
+      </div>
+
+      <div class="component-container">
+        <div class="pageviews-container">
+          <span class="pageviews" id="pageviews"> 100K</span>&nbsp;Pageviews
+        </div>
+        <div class="billing"><span id="bill">$16.00</span> &nbsp;/month</div>
+        <div class="range-slider-container">
+          <input
+            class="range-slider"
+            type="range"
+            min="1"
+            max="5"
+            id="range-slider"
+            value="3"
+          />
+        </div>
+        <div class="billing-type">
+          <span class="monthly-billing">Monthly Billing</span>
+          <span class="toggle-container">
+            <label class="switch">
+              <input
+                type="checkbox"
+                class="slider-checkbox"
+                id="bill-checkbox"
+                onclick="priceHandler()"
+              />
+              <span class="slider round"></span>
+            </label>
+          </span>
+          <span class="yearly-billing">Yearly Billing</span
+          ><span class="discount"> 25% discount</span>
+          <span class="discount-mobile"> -25%</span>
+        </div>
+        <hr />
+        <div class="details">
+          <p>
+            <img src="images/icon-check.svg" alt="tick" /> Unlimited websites
+          </p>
+          <p>
+            <img src="images/icon-check.svg" alt="tick" /> 100% data ownership
+          </p>
+          <p><img src="images/icon-check.svg" alt="tick" /> Email reports</p>
+        </div>
+        <div class="btn-container">
+          <button class="start-trial-btn">Start my trial</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://wqaisolutions.netlify.app">Qais</a>.
+    </footer>
+
+    <script src="03.js"></script>
+  </body>
+</html>
